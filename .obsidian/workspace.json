@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "effective-context-engineering.md",
+                "file": "effective-harnesses-engineering.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "effective-context-engineering"
+              "title": "effective-harnesses-engineering"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "effective-context-engineering.md",
+                "file": "effective-harnesses-engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "effective-context-engineering.md",
+                "file": "effective-harnesses-engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "effective-context-engineering.md",
+                "file": "effective-harnesses-engineering.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,8 +190,9 @@
   },
   "active": "036ef6757d18250a",
   "lastOpenFiles": [
-    "references/raw-effective-harnesses-for-long-running-agents.md",
     "effective-context-engineering.md",
+    "effective-harnesses-engineering.md",
+    "references/raw-effective-harnesses-for-long-running-agents.md",
     "references/raw-effective-context-engineering-for-ai-agents.md",
     "().md",
     "references/assets/raw-effective-context-engineering-for-ai-agents/figure-1-prompt-vs-context-engineering.png",
