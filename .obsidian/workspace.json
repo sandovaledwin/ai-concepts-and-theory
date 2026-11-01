@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7503f299c9c5a091",
+        "id": "cbf1833ce5c773ed",
         "type": "tabs",
         "children": [
           {
-            "id": "036ef6757d18250a",
+            "id": "162ed775952a45b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "demystifying-evals-for-ai-agents.md",
+                "file": "references/raw-contextual-retrieval.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "demystifying-evals-for-ai-agents"
+              "title": "raw-contextual-retrieval"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "demystifying-evals-for-ai-agents.md",
+                "file": "references/raw-contextual-retrieval.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "demystifying-evals-for-ai-agents.md",
+                "file": "references/raw-contextual-retrieval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "demystifying-evals-for-ai-agents.md",
+                "file": "references/raw-contextual-retrieval.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,16 +188,19 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "036ef6757d18250a",
+  "active": "162ed775952a45b0",
   "lastOpenFiles": [
-    "index.md",
-    "demystifying-evals-for-ai-agents.md",
     "system-prompt-guide-with-examples.md",
+    "references/raw-contextual-retrieval.md",
+    "references/raw-multi-agent-research-system.md",
+    "references/raw-prompt-engineering-openai.md",
+    "index.md",
+    "agents",
+    "effective-context-engineering.md",
+    "demystifying-evals-for-ai-agents.md",
     "prompt-engineering-openai.md",
     "references/raw-system-prompt-guide-with-examples.md",
-    "references/raw-prompt-engineering-openai.md",
     "effective-harnesses-engineering.md",
-    "effective-context-engineering.md",
     "references/raw-demystifying-evals-for-ai-agents.md",
     "references/demystifying-evals-for-ai-agents.md",
     "references/assets/raw-demystifying-evals-for-ai-agents/figure-5-swiss-cheese-model.png",
