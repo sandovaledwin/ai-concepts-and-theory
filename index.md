@@ -11,7 +11,19 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[effective-harnesses-engineering|Effective Harnesses for Long-Running Agents]]
   — Bridging sessions across context windows: an Initializer Agent (`init.sh`, `claude-progress.txt`, first git commit, JSON feature list) plus a Coding Agent that ships one feature at a time behind a fixed startup routine and end-to-end testing.
 
+- [[prompt-engineering-openai|Prompt Engineering (OpenAI)]]
+  — Practical prompting for the OpenAI API: model selection (reasoning vs. GPT models), the `developer`/`user` authority hierarchy, prompts-as-code with pinned snapshots and evals, prompt anatomy (Identity → Instructions → Examples → Context) with Markdown + XML, prompt caching, few-shot learning, RAG and context windows, plus playbooks for coding, front-end, and agentic tasks.
+
+- [[system-prompt-guide-with-examples|How to Write a System Prompt That Actually Works]]
+  — Anatomy of a production system prompt (role, constraints, format, tone, grounding), length heuristics (3–5 sentences vs. 1–2 pages), differences across OpenAI, Anthropic, and Google, plus six domain prompt patterns (customer support, code review, research, editing, data analysis, project management).
+
+- [[demystifying-evals-for-ai-agents|Demystifying Evals for AI Agents]]
+  — Why evals matter (escaping reactive loops, compound value), core anatomy (tasks, trials, graders, transcripts, outcomes, harnesses), grader archetypes (code-based, model-based, human), evaluating agent domains (coding, conversational, research, computer use), statistical interpretation (pass@k vs. pass^k), the zero-to-one roadmap, and holistic evaluation via the Swiss cheese model.
+
 ## Raw sources
 
 - [[references/raw-effective-context-engineering-for-ai-agents|Raw: Effective Context Engineering]]
 - [[references/raw-effective-harnesses-for-long-running-agents|Raw: Effective Harnesses]]
+- [[references/raw-demystifying-evals-for-ai-agents|Raw: Demystifying Evals for AI Agents]]
+- [[references/raw-prompt-engineering-openai|Raw: Prompt Engineering (OpenAI)]]
+- [[references/raw-system-prompt-guide-with-examples|Raw: System Prompt Guide with Examples]]

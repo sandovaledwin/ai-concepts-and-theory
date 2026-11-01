@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "demystifying-evals-for-ai-agents.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "demystifying-evals-for-ai-agents"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "demystifying-evals-for-ai-agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "demystifying-evals-for-ai-agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "demystifying-evals-for-ai-agents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,11 +190,24 @@
   },
   "active": "036ef6757d18250a",
   "lastOpenFiles": [
+    "index.md",
+    "demystifying-evals-for-ai-agents.md",
+    "system-prompt-guide-with-examples.md",
+    "prompt-engineering-openai.md",
+    "references/raw-system-prompt-guide-with-examples.md",
+    "references/raw-prompt-engineering-openai.md",
     "effective-harnesses-engineering.md",
     "effective-context-engineering.md",
+    "references/raw-demystifying-evals-for-ai-agents.md",
+    "references/demystifying-evals-for-ai-agents.md",
+    "references/assets/raw-demystifying-evals-for-ai-agents/figure-5-swiss-cheese-model.png",
+    "references/assets/raw-demystifying-evals-for-ai-agents/figure-4-eval-creation-process.png",
+    "references/assets/raw-demystifying-evals-for-ai-agents/figure-3-pass-at-k-vs-pass-hat-k.png",
+    "references/assets/raw-demystifying-evals-for-ai-agents/figure-2-eval-components.png",
+    "references/assets/raw-demystifying-evals-for-ai-agents/figure-1-single-vs-multi-turn-eval.png",
+    "references/assets/raw-demystifying-evals-for-ai-agents",
     "references/raw-effective-context-engineering-for-ai-agents.md",
     "references/raw-effective-harnesses-for-long-running-agents.md",
-    "index.md",
     "().md",
     "references/assets/raw-effective-context-engineering-for-ai-agents/figure-1-prompt-vs-context-engineering.png",
     "references/assets/raw-effective-context-engineering-for-ai-agents/figure-2-calibrating-system-prompt.png",
