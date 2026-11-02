@@ -20,6 +20,9 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[demystifying-evals-for-ai-agents|Demystifying Evals for AI Agents]]
   — Why evals matter (escaping reactive loops, compound value), core anatomy (tasks, trials, graders, transcripts, outcomes, harnesses), grader archetypes (code-based, model-based, human), evaluating agent domains (coding, conversational, research, computer use), statistical interpretation (pass@k vs. pass^k), the zero-to-one roadmap, and holistic evaluation via the Swiss cheese model.
 
+- [[contextual-retrieval|Contextual Retrieval]]
+  — Overcoming context loss in traditional RAG: situational chunk contextualization via lightweight LLMs, hybrid Contextual Embeddings + Contextual BM25, prompt caching for cost-effective ingestion ($1.02/M tokens), and cross-encoder reranking to reduce retrieval failures by up to 67%.
+
 ## Raw sources
 
 - [[references/raw-effective-context-engineering-for-ai-agents|Raw: Effective Context Engineering]]
@@ -27,3 +30,4 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[references/raw-demystifying-evals-for-ai-agents|Raw: Demystifying Evals for AI Agents]]
 - [[references/raw-prompt-engineering-openai|Raw: Prompt Engineering (OpenAI)]]
 - [[references/raw-system-prompt-guide-with-examples|Raw: System Prompt Guide with Examples]]
+- [[references/raw-contextual-retrieval|Raw: Contextual Retrieval]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prompt-engineering-openai.md",
+                "file": "index.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prompt-engineering-openai"
+              "title": "index"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prompt-engineering-openai.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prompt-engineering-openai.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "prompt-engineering-openai.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,6 +191,8 @@
   "active": "162ed775952a45b0",
   "lastOpenFiles": [
     "references/raw-contextual-retrieval.md",
+    "contextual-retrieval.md",
+    "prompt-engineering-openai.md",
     "system-prompt-guide-with-examples.md",
     "references/raw-multi-agent-research-system.md",
     "references/raw-prompt-engineering-openai.md",
@@ -198,7 +200,6 @@
     "agents",
     "effective-context-engineering.md",
     "demystifying-evals-for-ai-agents.md",
-    "prompt-engineering-openai.md",
     "references/raw-system-prompt-guide-with-examples.md",
     "effective-harnesses-engineering.md",
     "references/raw-demystifying-evals-for-ai-agents.md",
