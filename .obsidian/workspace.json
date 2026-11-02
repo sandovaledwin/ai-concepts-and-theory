@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "references/raw-contextual-retrieval.md",
+                "file": "prompt-engineering-openai.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "raw-contextual-retrieval"
+              "title": "prompt-engineering-openai"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "references/raw-contextual-retrieval.md",
+                "file": "prompt-engineering-openai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "references/raw-contextual-retrieval.md",
+                "file": "prompt-engineering-openai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "references/raw-contextual-retrieval.md",
+                "file": "prompt-engineering-openai.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,8 +190,8 @@
   },
   "active": "162ed775952a45b0",
   "lastOpenFiles": [
-    "system-prompt-guide-with-examples.md",
     "references/raw-contextual-retrieval.md",
+    "system-prompt-guide-with-examples.md",
     "references/raw-multi-agent-research-system.md",
     "references/raw-prompt-engineering-openai.md",
     "index.md",
