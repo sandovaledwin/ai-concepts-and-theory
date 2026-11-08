@@ -225,9 +225,25 @@ def main(
 
         # 2. Fetch transcript
         try:
-            transcript_data = YouTubeTranscriptApi.get_transcript(
-                video_id, languages=lang_list
-            )
+            if hasattr(YouTubeTranscriptApi, "get_transcript"):
+                transcript_data = YouTubeTranscriptApi.get_transcript(
+                    video_id, languages=lang_list
+                )
+            else:
+                fetched = YouTubeTranscriptApi().fetch(
+                    video_id, languages=lang_list
+                )
+                if hasattr(fetched, "to_raw_data"):
+                    transcript_data = fetched.to_raw_data()
+                else:
+                    transcript_data = [
+                        {
+                            "text": getattr(s, "text", ""),
+                            "start": getattr(s, "start", 0.0),
+                            "duration": getattr(s, "duration", 0.0),
+                        }
+                        for s in fetched
+                    ]
         except TranscriptsDisabled:
             click.secho(f"  [FAIL] Transcripts are disabled for video {video_id}.", fg="red", err=True)
             fail_count += 1
