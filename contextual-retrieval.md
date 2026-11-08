@@ -12,7 +12,7 @@ Retrieval-Augmented Generation (RAG) is the standard architecture for grounding 
 
 ### 1. The Token Horizon Heuristic: In-Context vs. RAG
 Before deploying a RAG pipeline, assess knowledge base size:
-* **Knowledge bases under 200,000 tokens (~500 pages):** Bypass RAG entirely. Pass the entire corpus into Claude's prompt window using **prompt caching**. This reduces latency by >2x and operating costs by up to 90% without retrieval degradation.
+* **Knowledge bases under 200,000 tokens (~500 pages):** Bypass RAG entirely. Pass the entire corpus into Claude's prompt window using [[prompt-caching|prompt caching]]. This reduces latency by >2x and operating costs by up to 90% without retrieval degradation.
 * **Knowledge bases over 200,000 tokens:** Requires scalable chunk-based retrieval, where contextual degradation must be actively mitigated.
 
 ### 2. Context Loss in Chunking

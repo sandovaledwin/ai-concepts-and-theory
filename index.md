@@ -23,6 +23,9 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[contextual-retrieval|Contextual Retrieval]]
   — Overcoming context loss in traditional RAG: situational chunk contextualization via lightweight LLMs, hybrid Contextual Embeddings + Contextual BM25, prompt caching for cost-effective ingestion ($1.02/M tokens), and cross-encoder reranking to reduce retrieval failures by up to 67%.
 
+- [[prompt-caching|Prompt Caching]]
+  — How prompt caching reuses KV cache states across requests: prefix matching mechanics, explicit vs. implicit breakpoints, write/read pricing and the minimum length trap ($L_{\mathrm{break\text{-}even}}$ formula), cache routing and multi-tenant security, and architectural patterns for long-horizon agents.
+
 ## Raw sources
 
 - [[references/raw-effective-context-engineering-for-ai-agents|Raw: Effective Context Engineering]]
@@ -31,3 +34,4 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[references/raw-prompt-engineering-openai|Raw: Prompt Engineering (OpenAI)]]
 - [[references/raw-system-prompt-guide-with-examples|Raw: System Prompt Guide with Examples]]
 - [[references/raw-contextual-retrieval|Raw: Contextual Retrieval]]
+- [[references/raw-prompt-caching|Raw: Prompt Caching]]

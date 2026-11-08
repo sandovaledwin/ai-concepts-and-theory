@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "prompt-caching.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "prompt-caching"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "prompt-caching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "prompt-caching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "prompt-caching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,16 +190,18 @@
   },
   "active": "162ed775952a45b0",
   "lastOpenFiles": [
+    "references/raw-prompt-caching.md",
+    "prompt-caching.md",
+    "index.md",
+    "demystifying-evals-for-ai-agents.md",
     "references/raw-contextual-retrieval.md",
     "contextual-retrieval.md",
     "prompt-engineering-openai.md",
     "system-prompt-guide-with-examples.md",
     "references/raw-multi-agent-research-system.md",
     "references/raw-prompt-engineering-openai.md",
-    "index.md",
     "agents",
     "effective-context-engineering.md",
-    "demystifying-evals-for-ai-agents.md",
     "references/raw-system-prompt-guide-with-examples.md",
     "effective-harnesses-engineering.md",
     "references/raw-demystifying-evals-for-ai-agents.md",

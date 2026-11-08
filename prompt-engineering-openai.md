@@ -56,7 +56,7 @@ You are a coding assistant that enforces snake_case variables in JavaScript.
 ```
 
 ### 5. Cost & Latency: Prompt Caching
-Put content you reuse across requests **at the very beginning of the prompt** *and* among the first parameters in the JSON request body. This maximizes cache hits, cutting both cost and latency.
+Put content you reuse across requests **at the very beginning of the prompt** *and* among the first parameters in the JSON request body. This maximizes cache hits, cutting both cost and latency (see [[prompt-caching|Prompt Caching]] for exact KV prefix rules and cost modeling).
 
 ### 6. Few-Shot Learning
 Rather than fine-tuning, include a handful of input/output examples so the model implicitly "picks up" the pattern. Show a **diverse range** of inputs with their correct outputs — a curated set of canonical cases beats a laundry list of edge cases. Examples normally live in the `developer` message, often wrapped in XML tags with matching `id` attributes.

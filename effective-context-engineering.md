@@ -1,5 +1,5 @@
 # Effective Context Engineering for AI Agents
-*[[Based on Anthropic's Research](raw-effective-context-engineering-for-ai-agents)]*
+*[[Based on Anthropic's Research](references/raw-effective-context-engineering-for-ai-agents)]*
 
 ## Introduction
 As language models advance, the focus is shifting from **prompt engineering** (finding the right words) to **context engineering**—curating the optimal set of information (tokens) during LLM inference to consistently achieve desired outcomes.
