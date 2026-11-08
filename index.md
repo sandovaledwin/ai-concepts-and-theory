@@ -26,6 +26,9 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[prompt-caching|Prompt Caching]]
   — How prompt caching reuses KV cache states across requests: prefix matching mechanics, explicit vs. implicit breakpoints, write/read pricing and the minimum length trap ($L_{\mathrm{break\text{-}even}}$ formula), cache routing and multi-tenant security, and architectural patterns for long-horizon agents.
 
+- [[context-rot-is-a-harness-problem|Context Rot Is a Harness Problem]]
+  — Why agent performance degradation stems from unmanaged context rather than model limitations: an architectural framework featuring dual-tier memory (`agent.md`/`memory.md`), three-tier progressive disclosure for skills, active/passive LSP integration, and dual-threshold context compaction.
+
 ## Raw sources
 
 - [[references/raw-effective-context-engineering-for-ai-agents|Raw: Effective Context Engineering]]
@@ -35,3 +38,4 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[references/raw-system-prompt-guide-with-examples|Raw: System Prompt Guide with Examples]]
 - [[references/raw-contextual-retrieval|Raw: Contextual Retrieval]]
 - [[references/raw-prompt-caching|Raw: Prompt Caching]]
+- [[references/raw-context-rot-is-a-harness-problem|Raw: Context Rot Is a Harness Problem]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prompt-caching.md",
+                "file": "index.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prompt-caching"
+              "title": "index"
             }
           }
         ]
@@ -190,9 +190,13 @@
   },
   "active": "162ed775952a45b0",
   "lastOpenFiles": [
-    "references/raw-prompt-caching.md",
-    "prompt-caching.md",
+    "context-rot-is-a-harness-problem.md",
+    "references/raw-context-rot-is-a-harness-problem.md",
+    "effective-context-engineering.md",
+    "references/raw-effective-harnesses-for-long-running-agents.md",
     "index.md",
+    "prompt-caching.md",
+    "references/raw-prompt-caching.md",
     "demystifying-evals-for-ai-agents.md",
     "references/raw-contextual-retrieval.md",
     "contextual-retrieval.md",
@@ -201,7 +205,6 @@
     "references/raw-multi-agent-research-system.md",
     "references/raw-prompt-engineering-openai.md",
     "agents",
-    "effective-context-engineering.md",
     "references/raw-system-prompt-guide-with-examples.md",
     "effective-harnesses-engineering.md",
     "references/raw-demystifying-evals-for-ai-agents.md",
@@ -213,7 +216,6 @@
     "references/assets/raw-demystifying-evals-for-ai-agents/figure-1-single-vs-multi-turn-eval.png",
     "references/assets/raw-demystifying-evals-for-ai-agents",
     "references/raw-effective-context-engineering-for-ai-agents.md",
-    "references/raw-effective-harnesses-for-long-running-agents.md",
     "().md",
     "references/assets/raw-effective-context-engineering-for-ai-agents/figure-1-prompt-vs-context-engineering.png",
     "references/assets/raw-effective-context-engineering-for-ai-agents/figure-2-calibrating-system-prompt.png",
