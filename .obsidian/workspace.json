@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "turn-ai-agent-bugs-into-regression-tests.md",
+                "file": "evals-101.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "turn-ai-agent-bugs-into-regression-tests"
+              "title": "evals-101"
             }
           }
         ]
@@ -190,9 +190,11 @@
   },
   "active": "162ed775952a45b0",
   "lastOpenFiles": [
+    "turn-ai-agent-bugs-into-regression-tests.md",
+    "evals-101.md",
+    "references/raw-evals-101-doug-guthrie-braintrust.md",
     "index.md",
     "references/raw-turn-ai-agent-bugs-into-regression-tests.md",
-    "turn-ai-agent-bugs-into-regression-tests.md",
     "context-rot-is-a-harness-problem.md",
     "references/raw-context-rot-is-a-harness-problem.md",
     "effective-context-engineering.md",

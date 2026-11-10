@@ -32,6 +32,9 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[turn-ai-agent-bugs-into-regression-tests|Turn AI Agent Bugs into Regression Tests]]
   — Converting production failures into deterministic regression tests via Hamel Hussein's Error Analysis Framework and Kitaru replays: session sampling, cohort clustering, deterministic code-based evaluators, tool caching policies (`fail` vs. `passthrough`), and safe model swapping.
 
+- [[evals-101|Evals 101: Building, Testing, and Monitoring AI Systems]]
+  — A practical guide to evaluating LLM applications: the three core primitives (tasks, datasets, scores), the 2×2 diagnostic matrix for calibrating tasks vs. scorers, offline experimentation vs. online span-level monitoring, and establishing the evaluation flywheel with human-in-the-loop triage.
+
 ## Raw sources
 
 - [[references/raw-effective-context-engineering-for-ai-agents|Raw: Effective Context Engineering]]
@@ -43,3 +46,4 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[references/raw-prompt-caching|Raw: Prompt Caching]]
 - [[references/raw-context-rot-is-a-harness-problem|Raw: Context Rot Is a Harness Problem]]
 - [[references/raw-turn-ai-agent-bugs-into-regression-tests|Raw: Turn AI Agent Bugs Into Regression Tests]]
+- [[references/raw-evals-101-doug-guthrie-braintrust|Raw: Evals 101 (Braintrust)]]
