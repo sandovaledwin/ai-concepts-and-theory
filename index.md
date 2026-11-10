@@ -29,6 +29,9 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[context-rot-is-a-harness-problem|Context Rot Is a Harness Problem]]
   — Why agent performance degradation stems from unmanaged context rather than model limitations: an architectural framework featuring dual-tier memory (`agent.md`/`memory.md`), three-tier progressive disclosure for skills, active/passive LSP integration, and dual-threshold context compaction.
 
+- [[turn-ai-agent-bugs-into-regression-tests|Turn AI Agent Bugs into Regression Tests]]
+  — Converting production failures into deterministic regression tests via Hamel Hussein's Error Analysis Framework and Kitaru replays: session sampling, cohort clustering, deterministic code-based evaluators, tool caching policies (`fail` vs. `passthrough`), and safe model swapping.
+
 ## Raw sources
 
 - [[references/raw-effective-context-engineering-for-ai-agents|Raw: Effective Context Engineering]]
@@ -39,3 +42,4 @@ Notes on how AI agents are built and run: prompts, system prompts, context manag
 - [[references/raw-contextual-retrieval|Raw: Contextual Retrieval]]
 - [[references/raw-prompt-caching|Raw: Prompt Caching]]
 - [[references/raw-context-rot-is-a-harness-problem|Raw: Context Rot Is a Harness Problem]]
+- [[references/raw-turn-ai-agent-bugs-into-regression-tests|Raw: Turn AI Agent Bugs Into Regression Tests]]

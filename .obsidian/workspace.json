@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "turn-ai-agent-bugs-into-regression-tests.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "turn-ai-agent-bugs-into-regression-tests"
             }
           }
         ]
@@ -190,11 +190,13 @@
   },
   "active": "162ed775952a45b0",
   "lastOpenFiles": [
+    "index.md",
+    "references/raw-turn-ai-agent-bugs-into-regression-tests.md",
+    "turn-ai-agent-bugs-into-regression-tests.md",
     "context-rot-is-a-harness-problem.md",
     "references/raw-context-rot-is-a-harness-problem.md",
     "effective-context-engineering.md",
     "references/raw-effective-harnesses-for-long-running-agents.md",
-    "index.md",
     "prompt-caching.md",
     "references/raw-prompt-caching.md",
     "demystifying-evals-for-ai-agents.md",
